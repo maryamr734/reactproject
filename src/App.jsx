@@ -65,7 +65,8 @@ function App() {
         <CounterContextProvider>
           <CartContextProvider>
      <WishlistContextProvider>
-              <RouterProvider router={router} />
+     <RouterProvider router={router}  />
+
               <Toaster />
            
             <ReactQueryDevtools initialIsOpen={false} />

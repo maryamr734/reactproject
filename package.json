@@ -2,12 +2,13 @@
   "name": "app1",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://maryamr734.github.io/finalproject2", 
+  "homepage": "http://maryamr734.github.io/react", 
   "type": "module",
   "scripts": {
+  
+    "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
